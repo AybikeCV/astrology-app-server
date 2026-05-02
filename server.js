@@ -21,3 +21,23 @@ server.listen(PORT, () => {
   console.log(`Local Access at http://localhost:${PORT}`)
 });
 
+/*
+
+ Planning routes
+ -get test checked http://localhost:5005
+ -get all triplicities
+ -get all signs
+ -get a triplicity and all its signs
+ -get signs by duality and/or quadruplicity
+ -get all favorites
+ -get favorites by user
+ -post favorites body, id userId signId
+ -delete favorites
+ -get all comments
+ -get comments by sign
+ -get comments by user
+ -post comment body, id userId signId text
+ -delete comment
+
+
+*/

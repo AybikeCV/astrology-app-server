@@ -6,7 +6,7 @@
       "dateStart": "21-03",
       "dateEnd": "19-04",
       "duality": "Masculine",
-      "triplicity": "Fire",
+      "triplicityId": "fire2",
       "quadruplicity": "Cardinal",
       "rulingPlanet": "Mars",
       "motto": "I AM",
@@ -20,7 +20,7 @@
       "dateStart": "20-04",
       "dateEnd": "20-05",
       "duality": "Feminine",
-      "triplicity": "Earth",
+      "triplicityId": "earth2",
       "quadruplicity": "Fixed",
       "rulingPlanet": "Venus",
       "motto": "I HAVE",
@@ -34,7 +34,7 @@
       "dateStart": "21-05",
       "dateEnd": "20-06",
       "duality": "Masculine",
-      "triplicity": "Air",
+      "triplicityId": "air3",
       "quadruplicity": "Mutable",
       "rulingPlanet": "Mercury",
       "motto": "I THINK",
@@ -48,7 +48,7 @@
       "dateStart": "21-06",
       "dateEnd": "22-07",
       "duality": "Feminine",
-      "triplicity": "Water",
+      "triplicityId": "water4",
       "quadruplicity": "Cardinal",
       "rulingPlanet": "The Moon",
       "motto": "I FEEL",
@@ -62,7 +62,7 @@
       "dateStart": "23-07",
       "dateEnd": "22-08",
       "duality": "Masculine",
-      "triplicity": "Fire",
+      "triplicityId": "fire1",
       "quadruplicity": "Fixed",
       "rulingPlanet": "The Sun",
       "motto": "I WILL",
@@ -76,7 +76,7 @@
       "dateStart": "23-08",
       "dateEnd": "22-09",
       "duality": "Feminine",
-      "triplicity": "Earth",
+      "triplicityId": "earth2",
       "quadruplicity": "Mutable",
       "rulingPlanet": "Mercury",
       "motto": "I ANALYZE",
@@ -90,7 +90,7 @@
       "dateStart": "23-09",
       "dateEnd": "22-10",
       "duality": "Masculine",
-      "triplicity": "Air",
+      "triplicityId": "air3",
       "quadruplicity": "Cardinal",
       "rulingPlanet": "Venus",
       "motto": "I BALANCE",
@@ -104,7 +104,7 @@
       "dateStart": "23-10",
       "dateEnd": "21-11",
       "duality": "Feminine",
-      "triplicity": "Water",
+      "triplicityId": "water4",
       "quadruplicity": "Fixed",
       "rulingPlanet": "Pluto",
       "motto": "I DESIRE",
@@ -118,7 +118,7 @@
       "dateStart": "22-11",
       "dateEnd": "21-12",
       "duality": "Masculine",
-      "triplicity": "Fire",
+      "triplicityId": "fire1",
       "quadruplicity": "Mutable",
       "rulingPlanet": "Jupiter",
       "motto": "I SEE",
@@ -132,7 +132,7 @@
       "dateStart": "22-12",
       "dateEnd": "19-01",
       "duality": "Feminine",
-      "triplicity": "Earth",
+      "triplicityId": "earth2",
       "quadruplicity": "Cardinal",
       "rulingPlanet": "Saturn",
       "motto": "I USE",
@@ -146,7 +146,7 @@
       "dateStart": "20-01",
       "dateEnd": "18-02",
       "duality": "Masculine",
-      "triplicity": "Air",
+      "triplicityId": "air3",
       "quadruplicity": "Fixed",
       "rulingPlanet": "Uranus",
       "motto": "I KNOW",
@@ -160,7 +160,7 @@
       "dateStart": "19-02",
       "dateEnd": "20-03",
       "duality": "Feminine",
-      "triplicity": "Water",
+      "triplicityId": "water4",
       "quadruplicity": "Mutable",
       "rulingPlanet": "Neptune",
       "motto": "I BELIEVE",
@@ -170,78 +170,26 @@
     }
   ],
 
-  "houses": [
+  "triplicities": [
     {
-      "id": "1house",
-      "name": "First House",
-      "description": "The First House represents identity, appearance, and first impressions. It describes how someone approaches life and expresses themselves outwardly. This house is connected with confidence and personal style. It often reflects natural instincts and self-awareness. Many associate it with beginnings and the self.",
-      "signId": "1aries"
+      "id": "fire1",
+      "name": "Fire",
+      "description": "The Fire triplicity is associated with passion, action, and inspiration. Fire signs often bring enthusiasm, courage, and a strong desire to create movement. They usually act quickly and trust instinct when pursuing goals. This energy can be motivating, expressive, and charismatic. Its challenge is balancing impulse with patience."
     },
     {
-      "id": "2house",
-      "name": "Second House",
-      "description": "The Second House relates to money, possessions, and personal values. It shows how someone seeks security and builds resources. This house also reflects self-worth and priorities. It can describe spending habits and material comfort. Many connect it with stability and abundance.",
-      "signId": "2taurus"
+      "id": "earth2",
+      "name": "Earth",
+      "description": "The Earth triplicity is connected with stability, practicality, and material growth. Earth signs often focus on building secure foundations and producing lasting results. They usually value consistency, responsibility, and real-world solutions. This energy can be dependable, grounded, and productive. Its challenge is avoiding rigidity or resistance to change."
     },
     {
-      "id": "3house",
-      "name": "Third House",
-      "description": "The Third House governs communication, learning, and everyday thinking. It relates to speaking, writing, and exchanging ideas. This house can also include siblings, neighbors, and local surroundings. It reflects curiosity and mental activity. Many associate it with connection through information.",
-      "signId": "3gemini"
+      "id": "air3",
+      "name": "Air",
+      "description": "The Air triplicity represents intellect, communication, and social exchange. Air signs often thrive through ideas, learning, and connecting with others. They usually enjoy discussion, curiosity, and seeing different perspectives. This energy can be adaptable, insightful, and innovative. Its challenge is staying emotionally present and practically focused."
     },
     {
-      "id": "4house",
-      "name": "Fourth House",
-      "description": "The Fourth House represents home, roots, and emotional foundations. It often describes family life and private space. This house can reveal what makes someone feel safe and nurtured. It also relates to ancestry and personal history. Many see it as the house of inner security.",
-      "signId": "4cancer"
-    },
-    {
-      "id": "5house",
-      "name": "Fifth House",
-      "description": "The Fifth House is linked to creativity, joy, and self-expression. It can describe romance, hobbies, and playful energy. This house often shows how someone shines naturally. It also connects to pleasure and artistic talents. Many associate it with passion and celebration.",
-      "signId": "5leo"
-    },
-    {
-      "id": "6house",
-      "name": "Sixth House",
-      "description": "The Sixth House concerns work, routines, and health habits. It shows how someone organizes daily responsibilities. This house can reflect service, discipline, and practical improvement. It also relates to wellness and care for the body. Many connect it with productivity and balance.",
-      "signId": "6virgo"
-    },
-    {
-      "id": "7house",
-      "name": "Seventh House",
-      "description": "The Seventh House focuses on partnerships and one-to-one relationships. It can describe marriage, business alliances, and cooperation. This house reflects what someone seeks in others. It often highlights balance, compromise, and mutual growth. Many see it as the house of commitment.",
-      "signId": "7libra"
-    },
-    {
-      "id": "8house",
-      "name": "Eighth House",
-      "description": "The Eighth House is associated with transformation, intimacy, and shared resources. It can relate to deep emotional bonds and trust. This house also touches inheritance, debts, and joint finances. It often symbolizes endings followed by renewal. Many connect it with mystery and growth through change.",
-      "signId": "8scorpio"
-    },
-    {
-      "id": "9house",
-      "name": "Ninth House",
-      "description": "The Ninth House represents higher learning, travel, and belief systems. It shows how someone searches for meaning and truth. This house can involve philosophy, religion, or advanced studies. It often reflects expansion through experience. Many associate it with adventure and wisdom.",
-      "signId": "9sagittarius"
-    },
-    {
-      "id": "10house",
-      "name": "Tenth House",
-      "description": "The Tenth House relates to career, reputation, and public life. It can describe ambitions and long-term achievements. This house often shows how someone wishes to be recognized. It also connects with responsibility and leadership. Many see it as the house of success and status.",
-      "signId": "10capricorn"
-    },
-    {
-      "id": "11house",
-      "name": "Eleventh House",
-      "description": "The Eleventh House concerns friendships, groups, and future goals. It reflects community involvement and shared ideals. This house can show networking, teamwork, and social circles. It often points to hopes and long-range dreams. Many connect it with innovation and belonging.",
-      "signId": "11aquarius"
-    },
-    {
-      "id": "12house",
-      "name": "Twelfth House",
-      "description": "The Twelfth House represents the inner world, solitude, and healing. It can relate to intuition, spirituality, and reflection. This house often highlights hidden patterns or subconscious themes. It also connects with compassion and release. Many see it as the house of endings and renewal.",
-      "signId": "12pisces"
+      "id": "water4",
+      "name": "Water",
+      "description": "The Water triplicity is linked to emotion, intuition, and sensitivity. Water signs often understand life through feelings, empathy, and inner awareness. They usually seek meaningful bonds and emotional depth. This energy can be healing, imaginative, and compassionate. Its challenge is maintaining boundaries and emotional balance."
     }
   ],
 
