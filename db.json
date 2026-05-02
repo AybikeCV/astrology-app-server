@@ -6,7 +6,7 @@
       "dateStart": "21-03",
       "dateEnd": "19-04",
       "duality": "Masculine",
-      "triplicityId": "fire2",
+      "triplicityId": "fire1",
       "quadruplicity": "Cardinal",
       "rulingPlanet": "Mars",
       "motto": "I AM",
@@ -169,7 +169,6 @@
       "imgUrl": "https://res.cloudinary.com/dmxivklpb/image/upload/v1777667574/earthly-theme-pisces_x18e58.png"
     }
   ],
-
   "triplicities": [
     {
       "id": "fire1",
@@ -192,7 +191,6 @@
       "description": "The Water triplicity is linked to emotion, intuition, and sensitivity. Water signs often understand life through feelings, empathy, and inner awareness. They usually seek meaningful bonds and emotional depth. This energy can be healing, imaginative, and compassionate. Its challenge is maintaining boundaries and emotional balance."
     }
   ],
-
   "users": [
     {
       "id": "ab111112",
@@ -201,7 +199,6 @@
       "signId": "11aquarius"
     }
   ],
-
   "favorites": [
     {
       "id": "fav1212",
@@ -214,19 +211,24 @@
       "signId": "8scorpio"
     }
   ],
-
   "comments": [
     {
       "id": "comment1",
       "userId": "ab111112",
       "signId": "1aries",
-      "text": "Aries energy is intense and powerful!"
+      "text": "Aries energy is intense and powerful!!!"
     },
     {
       "id": "comment2",
       "userId": "ab111112",
       "signId": "2taurus",
       "text": "Taurus feels calm and stable."
+    },
+    {
+      "userId": "ab111112",
+      "signId": "6virgo",
+      "text": "Virgos are stick to their routine.",
+      "id": "UAYOeNy"
     }
   ]
 }

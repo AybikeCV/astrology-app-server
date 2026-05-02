@@ -24,20 +24,21 @@ server.listen(PORT, () => {
 /*
 
  Planning routes
- -get test checked http://localhost:5005
- -get all triplicities
- -get all signs
- -get a triplicity and all its signs
- -get signs by duality and/or quadruplicity
- -get all favorites
- -get favorites by user
- -post favorites body, id userId signId
- -delete favorites
- -get all comments
- -get comments by sign
- -get comments by user
- -post comment body, id userId signId text
- -delete comment
-
-
+ -get test  //checked //http://localhost:5005
+ -get all triplicities // checked //runs finally // http://localhost:5005/triplicities 
+ -get all signs// checked // http://localhost:5005/signs
+ -get a triplicity and all its signs // checked// http://localhost:5005/triplicities/:triplicityId?_embed=signs
+ -get signs by duality and/or quadruplicity // duality checked// http://localhost:5005/signs/?duality=Masculine&triplicityId=fire1
+   quadruplicity //checked // http://localhost:5005/signs/?quadruplicity=Cardinal&triplicityId=fire1
+ -get all users //checked// http://localhost:5005/users
+ -get all favorites //checked// http://localhost:5005/favorites
+ -get favorites by user //checked// http://localhost:5005/favorites?userId=ab111112
+ -post -add favorite body,  userId signId //checked// http://localhost:5005/favorites
+ -delete favorites //checked// http://localhost:5005/favorites/:favoriteId
+ -get all comments //checked// http://localhost:5005/comments
+ -get comments by sign //checke// http://localhost:5005/comments/?signId=1aries
+ -get comments by user //checked//http://localhost:5005/comments/?userId=ab111112
+ -post create comment body, userId signId text //checked// http://localhost:5005/comments
+ -patch edit comment // checked//http://localhost:5005/comments/:commentId
+ -delete comment //checked// http://localhost:5005/comments/:commentId
 */
