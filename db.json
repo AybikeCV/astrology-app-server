@@ -171,46 +171,42 @@
   ],
   "triplicities": [
     {
-      "id": "fire1",
+      "id": "Fire",
       "name": "Fire",
       "description": "The Fire triplicity is associated with passion, action, and inspiration. Fire signs often bring enthusiasm, courage, and a strong desire to create movement. They usually act quickly and trust instinct when pursuing goals. This energy can be motivating, expressive, and charismatic. Its challenge is balancing impulse with patience.",
       "imgUrl": "https://res.cloudinary.com/dmxivklpb/image/upload/q_auto/f_auto/v1777904606/triplicities-fire_xfloej.png"
     },
     {
-      "id": "earth2",
+      "id": "Earth",
       "name": "Earth",
       "description": "The Earth triplicity is connected with stability, practicality, and material growth. Earth signs often focus on building secure foundations and producing lasting results. They usually value consistency, responsibility, and real-world solutions. This energy can be dependable, grounded, and productive. Its challenge is avoiding rigidity or resistance to change.",
       "imgUrl": "https://res.cloudinary.com/dmxivklpb/image/upload/q_auto/f_auto/v1777904606/triplicities-earth_arrm0k.png"
     },
     {
-      "id": "air3",
+      "id": "Air",
       "name": "Air",
       "description": "The Air triplicity represents intellect, communication, and social exchange. Air signs often thrive through ideas, learning, and connecting with others. They usually enjoy discussion, curiosity, and seeing different perspectives. This energy can be adaptable, insightful, and innovative. Its challenge is staying emotionally present and practically focused.",
       "imgUrl": "https://res.cloudinary.com/dmxivklpb/image/upload/q_auto/f_auto/v1777904606/triplicities-air_j4rfid.png"
     },
     {
-      "id": "water4",
+      "id": "Water",
       "name": "Water",
       "description": "The Water triplicity is linked to emotion, intuition, and sensitivity. Water signs often understand life through feelings, empathy, and inner awareness. They usually seek meaningful bonds and emotional depth. This energy can be healing, imaginative, and compassionate. Its challenge is maintaining boundaries and emotional balance.",
       "imgUrl": "https://res.cloudinary.com/dmxivklpb/image/upload/q_auto/f_auto/v1777904606/triplicities-water_syduay.png"
     }
   ],
-
   "comments": [
     {
       "id": "comment1",
-      "userId": "ab111112",
       "signId": "1aries",
       "text": "Aries energy is intense and powerful!!!"
     },
     {
       "id": "comment2",
-      "userId": "ab111112",
       "signId": "2taurus",
       "text": "Taurus feels calm and stable."
     },
     {
-      "userId": "ab111112",
       "signId": "6virgo",
       "text": "Virgos are stick to their routine.",
       "id": "UAYOeNy"
